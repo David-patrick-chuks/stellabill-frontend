@@ -184,7 +184,7 @@ export default function LandingNavbar() {
             style={{
               background: 'linear-gradient(90deg, #22d3ee 0%, #14b8a6 100%)',
               border: 'none',
-              color: '#000000',
+              color: '#ffffff',
               fontSize: '0.9375rem',
               fontWeight: 600,
               padding: '0.75rem 1.75rem',
