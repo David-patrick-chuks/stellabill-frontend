@@ -90,7 +90,7 @@ export default function Plans() {
   }
 
   return (
-    <div style={{ padding: '1.5rem', background: '#0a0a0a', minHeight: '100vh' }}>
+    <div style={{ padding: '1.5rem 2rem', background: '#0a0a0a', minHeight: '100vh' }}>
       {/* Search and Filters */}
       <div style={{ display: 'flex', gap: '1rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
         {/* Search */}
