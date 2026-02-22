@@ -4,11 +4,13 @@ import Dashboard from './pages/Dashboard'
 import Subscriptions from './pages/Subscriptions'
 import Plans from './pages/Plans'
 import Landing from './pages/Landing'
+import OnboardingSuccess from './pages/OnboardingSuccess'
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route path="/onboarding-success" element={<OnboardingSuccess />} />
       <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
       <Route path="/subscriptions" element={<Layout><Subscriptions /></Layout>} />
       <Route path="/plans" element={<Layout><Plans /></Layout>} />
