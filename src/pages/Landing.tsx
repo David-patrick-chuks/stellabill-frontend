@@ -1,5 +1,7 @@
 import LandingNavbar from '../components/LandingNavbar'
 import Hero from '../components/Landing/Hero'
+import TechBadges from "../components/landing/TechBadges";
+
 
 export default function Landing() {
   return (
@@ -8,6 +10,7 @@ export default function Landing() {
       
       <main>
         <Hero />
+        <TechBadges />
 
         {/* Sections for anchor links */}
         <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 1.5rem' }}>
@@ -33,5 +36,5 @@ export default function Landing() {
         </div>
       </main>
     </div>
-  )
+  );
 }
