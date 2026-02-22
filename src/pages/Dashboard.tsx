@@ -1,7 +1,7 @@
 export default function Dashboard() {
   return (
-    <div>
-      <h1 style={{ margin: '0 0 1rem', fontSize: '1.5rem' }}>Dashboard</h1>
+    <div style={{ padding: '1.5rem 2rem', background: '#0a0a0a', minHeight: '100vh' }}>
+      <h1 style={{ margin: '0 0 1rem', fontSize: '1.5rem', color: '#e2e8f0' }}>Dashboard</h1>
       <p style={{ color: '#64748b' }}>
         Overview of your subscription metrics and revenue. Connect the backend API to load real data.
       </p>
@@ -16,9 +16,9 @@ export default function Dashboard() {
 
 function Card({ title, value }: { title: string; value: string }) {
   return (
-    <div style={{ background: '#fff', padding: '1.25rem', borderRadius: 8, boxShadow: '0 1px 3px rgba(0,0,0,0.08)' }}>
+    <div style={{ background: '#1a1a1a', padding: '1.25rem', borderRadius: 8, border: '1px solid #2a2a2a' }}>
       <div style={{ fontSize: '0.875rem', color: '#64748b', marginBottom: '0.25rem' }}>{title}</div>
-      <div style={{ fontSize: '1.5rem', fontWeight: 600 }}>{value}</div>
+      <div style={{ fontSize: '1.5rem', fontWeight: 600, color: '#e2e8f0' }}>{value}</div>
     </div>
   )
 }
