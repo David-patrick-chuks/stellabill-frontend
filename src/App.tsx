@@ -1,9 +1,10 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import Layout from './components/Layout'
-import Dashboard from './pages/Dashboard'
-import Subscriptions from './pages/Subscriptions'
-import Plans from './pages/Plans'
-import UIMockups from './pages/UIMockups'
+import Layout from '@/components/Layout'
+import Dashboard from '@/pages/Dashboard'
+import Subscriptions from '@/pages/Subscriptions'
+import Plans from '@/pages/Plans'
+import UIMockups from '@/pages/UIMockups'
+
 
 function App() {
   return (
