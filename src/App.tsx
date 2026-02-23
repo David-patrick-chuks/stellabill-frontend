@@ -5,7 +5,7 @@ import Subscriptions from './pages/Subscriptions'
 import SubscriptionDetail from './pages/SubscriptionDetail'
 import Plans from './pages/Plans'
 import UIMockups from './pages/UIMockups'
-import Landing from './pages/Landing'
+import LandingPage from './pages/LandingPage'
 import OnboardingSuccess from './pages/OnboardingSuccess'
 import CreatePlan from "./pages/CreatePlan";
 
